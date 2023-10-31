@@ -25,5 +25,5 @@ export function GifGrid({ category, onDelete }) {
 
 GifGrid.propTypes = {
   category: PropTypes.string.isRequired,
-  onDelete: PropTypes.func.isRequired,
+  onDelete: PropTypes.func,
 };
